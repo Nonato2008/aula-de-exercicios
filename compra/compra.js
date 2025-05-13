@@ -8,7 +8,6 @@ do{
     if( !isNaN(compra) || compra >  0){
         soma += compra
     }
-    
-}while (compra !== 0)
+    }while (compra !== 0)
 
-alert(`O valor total do valor da compra ${soma} `)
+alert(`O valor total da compra, considerando o valor do desconto(Valor negativo) ${soma} `)

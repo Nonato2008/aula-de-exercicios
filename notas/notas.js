@@ -15,5 +15,5 @@ while (notas >= 0) {
 
 if (notas < 0 || i> 0) {
     media = soma / i
-    alert(`A média de suas notas, desconssiderando o valor negativo é ${media}`)
+    alert(`A média de suas notas é ${media}`)
 }
