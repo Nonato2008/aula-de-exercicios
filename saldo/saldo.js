@@ -1,7 +1,7 @@
 let salário = parseInt(1200)
 let saque = parseFloat(prompt("Quanto você deseja sacar?"))
 
-while(isNaN(saque) || saque<0){
+while(isNaN(saque) || saque<0){ /* enquanto ele digitar uma letra ficara pedindo um valor númerico válido, abaixo de zero, sem nenhuma letra presente */
     alert("Não é possível realizar este saque")
     saque = parseFloat(prompt("Saque um valor válido: "))
   }

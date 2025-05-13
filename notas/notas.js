@@ -3,7 +3,7 @@ let media = 0
 let i = 0
 let soma = 0
 
-while(isNaN(notas)){
+while(isNaN(notas)){ /* enquanto ele digitar uma letra ficara pedindo um valor númerico válido, sem nenhuma letra presente */
   alert("Este valor não é válido")
   notas = parseFloat(prompt("Digite uma nota VÁLIDA: "))
 }
@@ -18,4 +18,4 @@ while (notas >= 0) {
 if (notas < 0 || i > 0) {
   media = soma / i
   alert(`A média de suas notas é ${media}`)
-}
+} 

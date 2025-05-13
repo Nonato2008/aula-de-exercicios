@@ -1,11 +1,9 @@
-
 let tentativa 
 let i = 0
 
 do{
 
     i++
-
     tentativa = parseInt(prompt("Digite um número positivo."))
 
 }
