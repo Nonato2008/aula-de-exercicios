@@ -3,6 +3,10 @@ let media = 0
 let i = 0
 let soma = 0
 
+while(isNaN(notas)){
+  alert("Este valor não é válido")
+  notas = parseFloat(prompt("Digite uma nota VÁLIDA: "))
+}
 
 while (notas >= 0) {
   i++

@@ -1,11 +1,16 @@
-let compra = parseInt(prompt("Digite o valor do produto: "))
+let compra = parseFloat(prompt("Digite o valor do produto: "))
 let i = 0
 let soma = 0
 
+if(isNaN(compra)){
+    alert("Este valor não é válido")
+    compra = parseFloat(prompt("Digite o valor VÁLIDO do produto: "))
+}
 while (compra > 0) {
+
     i++
     soma += compra
-    compra = parseInt(prompt("Digite o valor do produto"))
+    compra = parseFloat(prompt("Digite o valor do produto"))
 }
 
 if (compra = 0 || i > 0) {  
